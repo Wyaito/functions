@@ -9,10 +9,14 @@
 
 # output the answer to the user
 
-user_number = input("What number to convert? ")
+user_number = float(input("What number to convert? "))
 userUnit = input("What unit is your number? ")
 
+# to convert in to mm -- inches x 25.4
+# to convert mm to in -- mm / 25.4
 
+#user gives in unit
+convNumber = user_number * 25.4
 
-print(user_number)
+print(convNumber)
 print(userUnit)
