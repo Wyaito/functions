@@ -6,11 +6,11 @@ user_number = float(input("What number to convert? "))
 # get the unit from the user
 userUnit = input("What unit is your number? ")
 #convert the length to the correct unit
-if(userUnit == "in"):
+if(userUnit == "in","IN"):
     #perform in to mm
     convNumber = user_number * 25.4
     convUnit = 'mm'
-elif(userUnit == 'mm'):
+elif(userUnit == 'mm','MM'):
     #perform mm to in
     convNumber = user_number / 25.4
     convUnit = 'in'
